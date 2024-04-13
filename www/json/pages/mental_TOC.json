@@ -1,0 +1,17 @@
+{
+  "1": {
+      "title": "how to overcome homesickness",
+      "content": "All about page 1",
+      "jsonPage": "json/pages/mh-pages/page1.json"
+    },
+  "2": {
+    "title": "how to overcome anxiety",
+    "content": "All about page 2",
+    "jsonPage": "json/pages/mh-pages/page2.json"
+  },
+  "3": {
+    "title": "how to overcome depression",
+    "content": "All about page 3",
+    "jsonPage": "json/pages/mh-pages/page3.json"
+  }
+}

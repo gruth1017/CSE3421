@@ -1,0 +1,17 @@
+{
+  "1": {
+      "title": "helpful study tips",
+      "content": "All about page 1",
+      "jsonPage": "json/pages/a-pages/page1.json"
+    },
+  "2": {
+    "title": "how not to procrastinate",
+    "content": "All about page 2",
+    "jsonPage": "json/pages/a-pages/page2.json"
+  },
+  "3": {
+    "title": "dont cram for exams",
+    "content": "All about page 3",
+    "jsonPage": "json/pages/a-pages/page3.json"
+  }
+}

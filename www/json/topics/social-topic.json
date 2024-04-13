@@ -1,0 +1,6 @@
+{
+  "title": "This is the social section",
+  "content": "Here are all of my pages",
+  "jsonPages": "json/pages/social_TOC.json",
+  "schedule": "json/schedule/social_schedule.json"
+}

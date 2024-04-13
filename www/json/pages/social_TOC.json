@@ -1,0 +1,17 @@
+{
+  "1": {
+      "title": "making friends is important",
+      "content": "All about page 1",
+      "jsonPage": "json/pages/s-pages/page1.json"
+    },
+  "2": {
+    "title": "how to create a support circle",
+    "content": "All about page 2",
+    "jsonPage": "json/pages/s-pages/page2.json"
+  },
+  "3": {
+    "title": "how to go to clubs",
+    "content": "All about page 3",
+    "jsonPage": "json/pages/s-pages/page3.json"
+  }
+}
