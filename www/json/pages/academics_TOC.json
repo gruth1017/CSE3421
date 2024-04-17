@@ -1,17 +1,17 @@
 {
   "1": {
-      "title": "helpful study tips",
-      "content": "All about page 1",
+      "title": "Helpful study tips",
+      "content": "Do you struggle to retain information when studying? If so, then try out these helpful tips!\n 1. Make your own flashcards \n 2. For every 90 minutes of study, take a 15 minute break \n 3. Try explaining new concepts to a study buddy (even if it's your pet!) to help yourself better understand them",
       "jsonPage": "json/pages/a-pages/page1.json"
     },
   "2": {
-    "title": "how not to procrastinate",
-    "content": "All about page 2",
+    "title": "How not to procrastinate",
+    "content": "Many students have a habit of avoiding assignments until the last minute. If you are one of them, you know that it can be difficult to push past the mental block and get the ball rolling. A great technique to help get you going is 'pairing' activities. Next time you struggle to get started, pair the task of working on your assignment with a task you enjoy, like drinking coffee or listening to music. This will help you associate working with a positive feeling, which can increase productivity and motivation.",
     "jsonPage": "json/pages/a-pages/page2.json"
   },
   "3": {
-    "title": "dont cram for exams",
-    "content": "All about page 3",
+    "title": "Don't cram for exams",
+    "content": "So, you spent all weekend hanging out with friends, laying on the beach, and binge-watching that new show. But now it's 9 am on Monday morning, and you have a test at 11 that you haven't even started to study for. 'Why didn't I start sooner?' you're asking. The reason is simple: you were having too much fun to carve out a big chunk of time to study. The good news is, you don't have to! If you're a chronic crammer, you don't have to stop having fun to study. Try taking your studies on the go. Talk to your friends about your course material, read your textbook at the beach, and go through your flashcards during commercial breaks. Using this strategy, you can get a head start on study without putting your life on hold.",
     "jsonPage": "json/pages/a-pages/page3.json"
   }
 }
