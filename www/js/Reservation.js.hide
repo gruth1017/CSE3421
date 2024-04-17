@@ -1,0 +1,46 @@
+const urlParams = new URLSearchParams(window.location.search);
+const jsonFileSchedule = urlParams.get('json');
+//const time = urlParams.get('time');
+
+function submitForm(event) {
+    event.preventDefault();
+    console.log("submited!");
+}
+
+
+
+fetch(jsonFileSchedule)
+    .then(response => response.json())
+    .then(data => {
+
+    // Set up the form
+    fetch(data.reservationJson)
+        .then(response => response.json())
+        .then(data2 => {
+
+          // Store json data from form on submit
+          fetch(data.campusFacility)
+            .then(response => response.json())
+            .then(data3 => {
+              console.log("hello gurrrlll");
+            })
+            .catch(error => console.error('Error fetching JSON:', error));
+
+          let content = '<form id="scheduleForm" onsubmit="submitForm(event)">';
+
+          for (const key in data2) {
+            content += `
+              <label for=${key}> ${data2[key][0].label} </label>
+              <input type='text' id=${key} name=${key}> <br>
+            `;
+          }
+          content += `
+            <input type="submit" value="Submit">
+            </form>
+          `;
+          document.getElementById('content').innerHTML = content;
+
+        })
+        .catch(error => console.error('Error fetching JSON:', error));
+    })
+    .catch(error => console.error('Error fetching JSON:', error));

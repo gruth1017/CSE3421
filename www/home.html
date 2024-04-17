@@ -8,22 +8,31 @@
         <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
         <meta name="color-scheme" content="light dark">
         <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/home.css">
         <title>Hello World</title>
     </head>
     <body>
+      <div id='header'>
+        <br><br>
         <h1>Select a category</h1>
-        <!--- <button id="academic"> Academic </button> <br>
-        <button id="mental-health"> Mental Health </button> <br>
-        <button id="social"> Social </button> <br> --->
+      </div>
 
-        <a href="topic.html?json=json/topics/academic-topic.json">Academic</a> <br>
-        <a href="topic.html?json=json/topics/mental-topic.json">Mental Health</a> <br>
-        <a href="topic.html?json=json/topics/social-topic.json">Social</a> <br><br>
+      <div class='content'>
+          <ul>
+              <li>
+                  <a href="topic.html?json=json/topics/academic-topic.json">Academic</a>
+              </li>
+              <li>
+                  <a href="topic.html?json=json/topics/mental-topic.json">Mental Health</a>
+              </li>
+              <li>
+                  <a href="topic.html?json=json/topics/social-topic.json">Social</a><br>
+              </li>
+          </ul>
+      </div>
 
-        <a href="schedule.html"> generic schedule page </a>
-
-        <!--- <a href="topic.html"> generic topic page </a> --->
-        <!--- <script src="cordova.js"></script> --->
-        <!--- <script src="js/index.js"></script> --->
+      <!--- <a href="topic.html"> generic topic page </a> --->
+      <!--- <script src="cordova.js"></script> --->
+      <!--- <script src="js/index.js"></script> --->
     </body>
 </html>

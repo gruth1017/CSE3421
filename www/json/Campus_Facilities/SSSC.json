@@ -1,0 +1,57 @@
+{
+  "Monday, April 29th": [
+    { "time": "8:00" },
+    { "time": "9:00" },
+    { "time": "10:00" },
+    { "time": "11:00", "subject": "math" },
+    { "time": "12:00" },
+    { "time": "1:00" },
+    { "time": "2:00", "subject": "chem" },
+    { "time": "3:00" },
+    { "time": "4:00" }
+  ],
+  "Tuesday, April 30th": [
+    { "time": "8:00", "subject": "formal lang" },
+    { "time": "9:00" },
+    { "time": "10:00" },
+    { "time": "11:00", "subject": "physics" },
+    { "time": "12:00" },
+    { "time": "1:00" },
+    { "time": "2:00", "subject": "calm" },
+    { "time": "3:00" },
+    { "time": "4:00" }
+  ],
+  "Wednesday, May 1st": [
+    { "time": "8:00", "subject": "formal lang" },
+    { "time": "9:00" },
+    { "time": "10:00" },
+    { "time": "11:00", "subject": "physics" },
+    { "time": "12:00" },
+    { "time": "1:00" },
+    { "time": "2:00", "subject": "calm" },
+    { "time": "3:00" },
+    { "time": "4:00" }
+  ],
+  "Thursday, May 2nd": [
+    { "time": "8:00", "subject": "formal lang" },
+    { "time": "9:00" },
+    { "time": "10:00" },
+    { "time": "11:00", "subject": "physics" },
+    { "time": "12:00" },
+    { "time": "1:00" },
+    { "time": "2:00", "subject": "calm" },
+    { "time": "3:00" },
+    { "time": "4:00" }
+  ],
+  "Friday, May 3rd": [
+    { "time": "8:00", "subject": "formal lang" },
+    { "time": "9:00" },
+    { "time": "10:00" },
+    { "time": "11:00", "subject": "physics" },
+    { "time": "12:00" },
+    { "time": "1:00" },
+    { "time": "2:00", "subject": "calm" },
+    { "time": "3:00" },
+    { "time": "4:00" }
+  ]
+}

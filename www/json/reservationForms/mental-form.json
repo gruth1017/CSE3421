@@ -1,0 +1,14 @@
+{
+  "firstname": [
+    { "label": "First Name:" }
+  ],
+  "lastname": [
+    { "label": "Last Name:" }
+  ],
+  "day": [
+    { "label": "Day:" }
+  ],
+  "time": [
+    { "label": "Time:" }
+  ]
+}

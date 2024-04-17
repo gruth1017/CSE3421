@@ -1,0 +1,41 @@
+body { /* defines font family for all pages */
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    background-color: #AB946C;
+
+    h1 {
+      padding: 10px;
+      text-align: left;
+      color: #f7f7f7;
+    }
+}
+
+#content {
+    padding: 10px;
+    font-size: 11pt;
+    margin: 0.1em;
+    label {
+      font-size: 15pt;
+      color: #f7f7f7;
+      display: inline-block;
+      margin: 0.1em;
+    }
+    button {
+      background-color: #AB946C;
+      border-radius: 4px;
+      font-size: 12pt;
+      margin: 0.5em 0.3em 0.3em 0.3em;
+    }
+}
+
+h2 {
+        padding: 50px;
+        text-align: center;
+        color: #f7f7f7;
+    }

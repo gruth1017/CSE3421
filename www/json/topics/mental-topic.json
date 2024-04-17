@@ -1,6 +1,7 @@
 {
-  "title": "This is the mental health section",
+  "title": "Mental Health Section",
   "content": "Here are all of my pages",
   "jsonPages": "json/pages/mental_TOC.json",
-  "schedule": "json/schedule/mental_schedule.json"
+  "scheduleType": "Counseling",
+  "schedule": "json/schedule/mental-schedule.json"
 }

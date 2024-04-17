@@ -1,0 +1,64 @@
+body { /* defines font family for all pages */
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    background-color: #AB946C;
+
+    h1 {
+      padding: 10px;
+      text-align: left;
+      color: #f7f7f7;
+    }
+}
+
+.body {
+    padding: 10px;
+    font-size: 11pt;
+    display: flex;
+    flex-direction: column;
+    p {
+      font-size: 15pt;
+      color: #f7f7f7;
+      display: inline-block;
+    }
+    li {
+        display: inline-block;
+        text-align: center;
+        background-color: #AB946C;
+        border-radius: 8pt;
+        margin: 0.25em 0.7em 1em 5em;
+    }
+    a {
+      font-size: 15pt;
+      text-decoration: none;
+      color: #f7f7f7;
+      padding: 15px;
+    }
+
+    #pages{
+        a, p {
+          text-align: center;
+          font-size: 12pt;
+          color: #f7f7f7;
+          display: block;
+        }
+    }
+
+    #schedule {
+        li {
+            display: inline-block;
+            text-align: center;
+            background-color: #AB946C;
+            border-radius: 8pt;
+            margin: 0.25em 0.5em 0.25em -0.5em;
+            padding: 1.5em;
+        }
+    }
+
+
+}

@@ -1,6 +1,7 @@
 {
-  "title": "This is the academic section",
+  "title": "Academic Section",
   "content": "Here are all of my pages",
   "jsonPages": "json/pages/academics_TOC.json",
-  "schedule": "json/schedule/academics_schedule.json"
+  "scheduleType": "Tutoring",
+  "schedule": "json/schedule/academic-schedule.json"
 }

@@ -1,0 +1,23 @@
+{
+  "Monday, April 29th": [
+    { "time": "1:00", "event": "club 1 meeting" },
+    { "time": "2:00", "event": "club 1.6 meeting" }
+  ],
+  "Tuesday, April 30th": [
+    { "time": "2:00", "subject": "club 2 meeting" },
+    { "time": "3:00", "subject": "club 2 meeting" }
+  ],
+  "Wednesday, May 1st": [
+    { "time": "2:00", "subject": "club 3 meeting" },
+    { "time": "3:00", "subject": "club 3 meeting" }
+  ],
+  "Thursday, May 2nd": [
+    { "time": "2:00", "subject": "club 4 meeting" },
+    { "time": "3:00", "subject": "club 4 meeting" }
+  ],
+  "Friday, May 3rd": [
+    { "time": "2:00", "subject": "club 5 meeting" },
+    { "time": "3:00", "subject": "club 5 meeting" },
+    { "time": "9:00-11:00", "subject":  "epic dance party B)"}
+  ]
+}

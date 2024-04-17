@@ -1,0 +1,5 @@
+{
+  "campusFacility": "json/Campus_Facilities/SSSC.json",
+  "reservationJson": "json/reservationForms/academic-form.json",
+  "nextPage": "json/schedule/academic-schedule.json"
+}

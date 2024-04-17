@@ -4,11 +4,10 @@ const jsonFile = urlParams.get('json');
 fetch(jsonFile)
     .then(response => response.json())
     .then(data => {
-        document.getElementById('content').innerHTML = `
-            <p>Title: ${data.title}</p>
-            <p>Content: ${data.content}</p>
+        document.getElementById('header').innerHTML = `
+            <br><br>
+            <h1>${data.title}</h1>
         `;
-
 
          fetch(data.jsonPages)
              .then(response => response.json())
@@ -18,8 +17,10 @@ fetch(jsonFile)
                        if (data2.hasOwnProperty(key)) {
                          const item = data2[key];
                          content += `
-                             <a href="page.html?json=${item.jsonPage}">${item.title}</a> <br>
-                             <p>Content: ${item.content}</p>
+                            <ul>
+                                <li> <a href="page.html?json=${item.jsonPage}">${item.title}</a>
+                                   <a>${item.content}</a> </li>
+                            </ul>
                          `;
                        }
                  }
@@ -28,9 +29,9 @@ fetch(jsonFile)
              .catch(error => console.error('Error fetching JSON:', error));
 
          document.getElementById('schedule').innerHTML = `
-            <a href="schedule.html?json=${data.schedule}"> Schedule something! </a>
+             <ul>
+             <li><a href="schedule.html?json=${data.schedule}"> See the ${data.scheduleType} Schedule! </a></li>
+             </ul>
          `;
-
-
     })
     .catch(error => console.error('Error fetching JSON:', error));
