@@ -1,17 +1,17 @@
 {
   "1": {
-      "title": "making friends is important",
-      "content": "All about page 1",
+      "title": "How to Make Friends in College: 5 Practical Tips",
+      "content": "5 tips to help you make friends in college",
       "jsonPage": "json/pages/s-pages/page1.json"
     },
   "2": {
-    "title": "how to create a support circle",
-    "content": "All about page 2",
+    "title": "Five step process to help you build a thriving support circle",
+    "content": "5 steps for building a thriving support circle",
     "jsonPage": "json/pages/s-pages/page2.json"
   },
   "3": {
-    "title": "how to go to clubs",
-    "content": "All about page 3",
+    "title": "How to Find and Join Clubs in College",
+    "content": "Tips for joining a club in college",
     "jsonPage": "json/pages/s-pages/page3.json"
   }
 }

@@ -1,7 +1,8 @@
+// get the json file parameter
 const urlParams = new URLSearchParams(window.location.search);
 const jsonFileSchedule = urlParams.get('json');
-//const time = urlParams.get('time');
 
+// function to submit the form
 function submitForm(event, nextPage) {
     event.preventDefault();
     wait();
@@ -9,6 +10,7 @@ function submitForm(event, nextPage) {
     window.location.href = "schedule.html?json=" + nextPage;
 }
 
+// function to wai after submitting to let the user know that from was submitted
 function wait() {
     setTimeout(function() {
         document.getElementById('waitMessage').innerHTML = `
@@ -21,6 +23,7 @@ function wait() {
     `;
 }
 
+// function to create the unique form
 function createForm(jsonData, nextPage){
   let container = document.getElementById('content');
   let form = document.createElement('form');
@@ -53,8 +56,7 @@ function createForm(jsonData, nextPage){
   container.appendChild(form);
 }
 
-
-
+// parse through the json file
 fetch(jsonFileSchedule)
     .then(response => response.json())
     .then(data => {
@@ -70,10 +72,10 @@ fetch(jsonFileSchedule)
           fetch(data.campusFacility)
             .then(response => response.json())
             .then(data3 => {
-              console.log("hello gurrrlll");
+              console.log("hello");
             })
             .catch(error => console.error('Error fetching JSON:', error));
-
+          // Call the create form function
           createForm(data2, nextPage);
 
         })

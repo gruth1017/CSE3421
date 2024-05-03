@@ -1,14 +1,18 @@
+// get the json file parameter
 const urlParams = new URLSearchParams(window.location.search);
 const jsonFileSchedule = urlParams.get('json');
 
-
+// parse through the json file
 fetch(jsonFileSchedule)
   .then(response => response.json())
   .then(data => {
 
+    // data.campusFacility is the path to the json file with the schedule information
+    // parse through this json file
     fetch(data.campusFacility)
         .then(response => response.json())
         .then(data2 => {
+            // display all of the schedule info (available and unavailable times)
             let content = '';
             for (const key in data2) {
               if (data2.hasOwnProperty(key)) {

@@ -1,4 +1,5 @@
 {
   "campusFacility": "json/Campus_Facilities/Counseling.json",
-  "reservationJson": "json/reservationForms/mental-form.json"
+  "reservationJson": "json/reservationForms/mental-form.json",
+  "nextPage": "json/schedule/mental-schedule.json"
 }

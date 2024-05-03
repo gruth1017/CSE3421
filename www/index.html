@@ -38,7 +38,6 @@
         <title>Hello World</title>
     </head>
     <body>
-        <!--- <div class="app"> </div> --->
         <!--- <script src="cordova.js"></script> --->
         <!--- <script src="js/index.js"></script> --->
         <div id='header'>
@@ -48,16 +47,14 @@
 
         <div class='content'>
             <p> Enter your student username and password </p> <br>
-            <form>
+            <form method="post" action="home.html">
                 <label for="username"> Username: </label>
-                <input type='text' id='username' name='username'> <br>
+                <input type='text' id='username' name='username' required> <br>
                 <label for="password"> Password:  </label>
-                <input type='password' id='password' name='password'> <br><br>
+                <input type='password' id='password' name='password' required> <br><br>
                 <input type="submit" value="Login">
             </form>
         </div>
-
-        <a href="home.html"> Bypass login for testing </a>
 
     </body>
 </html>

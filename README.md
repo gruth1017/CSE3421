@@ -1,11 +1,17 @@
-**Must have Apache Cordova and an android emulator**
+# CSE3421
 
-- go into the command prompt and do "git clone <repository link>"
-- cd into the directory
-- type "npm install", this will install all the needed packages
-- type "cordova platform add android", this will tell cordova you are making an android app and from there follow the video, "cordova run android" compiles the apk and you can use the apk how you want, either install it on a real phone or an emulated phone.
 
-Video tutorials used: 
-https://www.youtube.com/watch?v=fK0js5zG8ng&list=LL&index=10&ab_channel=Learn360Photography - walks you through everything you need to know to set up apache cordova, which is the software that will compile the apk file, and also set up Android studio, which is an IDE and android phone emulator. 
+-login page
+-homepage
+-topic page (list of articles or events), article page(event info page), schedule page(appointment or rsvp)
+-page tab
+-how to "access" outside sources
 
-This video shows you how to compile a apk file and get it onto and actual phone and this video (https://www.youtube.com/watch?v=X4bdoD8eKV8&list=LL&index=9&ab_channel=TechyDruid) will show you how to get an app emulator running and install the apk file on the emulated phone
+
+campus facilities (SSSC, counseling, etc) - data represented in json files? address, name, all schedule info
+campus facilities management (the API part) - reads the json and process, transfers to other schedule data structure
+app contents - hold all the pages info, ONE PAGE TEMPLATE that reads article infor, maybe a json? displays title, author, subhead, and content in one page template
+app - the controller UI, asks for the contents and distrubutes schedule info to be processed
+scheduler - contents CURRENT schedule info, gets from campus facilities management
+engagements - is a form that is submitted, contains information for the event the student is scheduling or rsvping
+user loging code? - asks for data, checks against json, verifies or doesnt

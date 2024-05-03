@@ -26,6 +26,7 @@ body { /* defines font family for all pages */
     }
     input[type="submit"] {
       background-color: #AB946C;
+      border-color: white;
       border-radius: 4px;
       font-size: 12pt;
     }

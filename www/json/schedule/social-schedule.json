@@ -1,4 +1,5 @@
 {
   "campusFacility": "json/Campus_Facilities/Corq.json",
-  "reservationJson": "json/reservationForms/social-form.json"
+  "reservationJson": "json/reservationForms/social-form.json",
+  "nextPage": "json/schedule/social-schedule.json"
 }

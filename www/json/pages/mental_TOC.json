@@ -1,17 +1,17 @@
 {
   "1": {
-      "title": "how to overcome homesickness",
-      "content": "All about page 1",
+      "title": "How to cope with homesickness: 8 easy tips",
+      "content": "Here are 5 tips to help you cope with the feeling of homesickness",
       "jsonPage": "json/pages/mh-pages/page1.json"
     },
   "2": {
-    "title": "how to overcome anxiety",
-    "content": "All about page 2",
+    "title": "11 tips for copying with an anxiety disorder",
+    "content": "Cope with anxiety with these 11 tips",
     "jsonPage": "json/pages/mh-pages/page2.json"
   },
   "3": {
-    "title": "how to overcome depression",
-    "content": "All about page 3",
+    "title": "Coping with Depression",
+    "content": "Learn some ways to cope with depression",
     "jsonPage": "json/pages/mh-pages/page3.json"
   }
 }
